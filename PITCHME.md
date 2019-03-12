@@ -38,9 +38,52 @@ Most package managers will have python installations:
 - RedHat/CentOS: `yum install python* -y`
 - Debian/Ubuntu: `apt-get install python* -y`
 
+---
 
-- Windows: 
+### Demo - An introduction to Python
+
+Tim Rheault
+
++++
+
+### Demo - Python Practical Use-cases
+
+Lakshmi Ravipati
 
 ---
 
+### Overview - What Next?
 
++++
+
+### Custom Packages
+
+Using a private PyPI repository (Nexus), we can upload our own packages
+
+- [EIT SNOW cli](https://github.com/cwt-dev/eit-snow_cli/) - CWT cli for SNOW REST calls
+- [EIT ip360](https://github.com/cwt-dev/eit-ip360) - on-demand ip360 scanning
+- [LoadBalancer Util](https://github.com/cwt-dev/eit-lbutil)
+- *Your own packaged repos* - ask Slack's [#amm_general](https://cwag.slack.com/messages/C6ATCJNBE) for access to Nexus pypi repo
+
++++
+
+### Ansible Custom Modules/Libraries
+
+You can write your own custom Ansible modules!
+
+- [eit-certmonger](https://github.com/cwt-dev/eit-certmonger/#dependencies)
+
++++
+
+### Interface with services
+
+- ExtraHop
+- ServiceNow
+- Netscaler
+- Panorama
+- Elasticsearch
+- Web Applications
+- *... pretty much any service!*
+
+---
+## Thank you!
